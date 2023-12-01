@@ -48,6 +48,5 @@ function compileCode() {
 test('compiling android goes as expected', () => {
   expect(() => compileCode()).toThrow();
   expect(() => compileCode()).toThrow(Error);
-
-  
 })
+
